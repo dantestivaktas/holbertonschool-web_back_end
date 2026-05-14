@@ -1,7 +1,3 @@
--- Script that creates a trigger that decreases the quantity
--- of an item after adding a new order.
-
--- Create trigger to update items quantity after a new order is inserted
 CREATE TRIGGER decrease_quantity_after_order
 AFTER INSERT ON orders
 FOR EACH ROW
