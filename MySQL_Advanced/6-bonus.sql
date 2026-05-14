@@ -1,6 +1,3 @@
--- Script that creates a stored procedure AddBonus that adds a new correction for a student.
--- Requirements: user_id (existing), project_name (new or existing), score.
-
 DELIMITER $$
 
 CREATE PROCEDURE AddBonus(IN user_id INT, IN project_name VARCHAR(255), IN score INT)
